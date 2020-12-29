@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "yarn next dev",
-    "build": "yarn next build && next export",
+    "build": "yarn next build && yarn next export",
     "start": "yarn next dev"
   },
   "dependencies": {
