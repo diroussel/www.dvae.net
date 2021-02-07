@@ -1,11 +1,14 @@
 {
-  "name": "next-starter-jamstack",
+  "name": "www.dvae.net",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
+    "postinstall": "husky install",
     "dev": "yarn next dev",
     "build": "yarn next build && yarn next export",
     "start": "yarn next dev",
-    "lint": "yarn eslint --ext .js,.jsx,.ts,.tsx src"
+    "lint": "yarn eslint --ext .js,.jsx,.ts,.tsx src",
+    "denv": "env"
   },
   "dependencies": {
     "next": "^10.0.0",
@@ -25,6 +28,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "latest",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "next",
     "typescript": "^4.1.3"
   }
 }

@@ -3497,6 +3497,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"husky@npm:next":
+  version: 5.0.8
+  resolution: "husky@npm:5.0.8"
+  bin:
+    husky: lib/bin.js
+  checksum: cc8a7926a4d6e97d19b9713c0fbbc8553c8717800d7dee6b09ef223ff395c5c51ef9091265b259b06e886d157e9f2701d1370b00a5633ac34b3eaaa8234a736c
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -4595,29 +4604,6 @@ fsevents@~2.1.2:
   checksum: 34a8f5309135be258a97082af810ea43700a3e0121e7b1ea31b3e22e2663d7c0d502cd949abb6d1ab8c11abfd04500ee61721ec5408b2d4bef8105241fd8a4c2
   languageName: node
   linkType: hard
-
-"next-starter-jamstack@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "next-starter-jamstack@workspace:."
-  dependencies:
-    "@types/node": ^14.14.25
-    "@types/react": ^17.0.1
-    "@typescript-eslint/eslint-plugin": ^4.14.2
-    "@typescript-eslint/parser": ^4.14.2
-    eslint: ^7.19.0
-    eslint-config-airbnb: ^18.2.1
-    eslint-config-airbnb-typescript: ^12.3.1
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-react: latest
-    eslint-plugin-react-hooks: ^4.2.0
-    next: ^10.0.0
-    react: 16.14.0
-    react-dom: 16.14.0
-    styled-jsx: ^3.3.2
-    typescript: ^4.1.3
-  languageName: unknown
-  linkType: soft
 
 "next-tick@npm:~1.0.0":
   version: 1.0.0
@@ -7376,6 +7362,30 @@ typescript@^4.1.3:
   checksum: 519fcda0fcdf0c16327be2de9d98646742307bc830277e8868529fcf7566f2b330a6453c233e0cdcb767d5838dd61a90984a02ecc983bcddebea5ad0833bbf98
   languageName: node
   linkType: hard
+
+"www.dvae.net@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "www.dvae.net@workspace:."
+  dependencies:
+    "@types/node": ^14.14.25
+    "@types/react": ^17.0.1
+    "@typescript-eslint/eslint-plugin": ^4.14.2
+    "@typescript-eslint/parser": ^4.14.2
+    eslint: ^7.19.0
+    eslint-config-airbnb: ^18.2.1
+    eslint-config-airbnb-typescript: ^12.3.1
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-react: latest
+    eslint-plugin-react-hooks: ^4.2.0
+    husky: next
+    next: ^10.0.0
+    react: 16.14.0
+    react-dom: 16.14.0
+    styled-jsx: ^3.3.2
+    typescript: ^4.1.3
+  languageName: unknown
+  linkType: soft
 
 "xtend@npm:^4.0.0, xtend@npm:~4.0.1":
   version: 4.0.2
